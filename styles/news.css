@@ -1,0 +1,18 @@
+.card {
+  width: 326px;
+  margin: 20px auto;
+  padding: 10px;
+
+  border-radius: 10px;
+  background: #fff;
+
+  text-align: left;
+  color: #202020;
+}
+
+.card_header {
+  font-size: 21px;
+  font-weight: 540;
+  margin: 10px auto;
+  letter-spacing: -0.8px;
+}

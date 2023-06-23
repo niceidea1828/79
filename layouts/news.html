@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/common_style.css" />
+    <link rel="stylesheet" href="../styles/news.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper hidden">
+      <div class="header">
+        <a href="main.html" class="back block">Back</a>
+
+        <div class="balance_cont block">
+          <img src="../png/coin.png" alt="" />
+          <div class="balance"></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="../png/n1.png" alt="" />
+        <div class="card_header">
+          Friendly matches. Brazil lost to Senegal, Germany lost to Colombia
+        </div>
+        <div class="card_text">
+          Malcom got into the starting lineup of the Brazilian national team for
+          the first time in his career. The Zenit midfielder started a friendly
+          game against Senegal from the first minute.
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="../png/n2.png" alt="" />
+        <div class="card_header">
+          Vinicius about his assistant's conflict with the guard before the
+          Brazil game
+        </div>
+        <div class="card_text">
+          Vinicius Junior was dissatisfied with the attitude of his assistant at
+          the Brazil-Guinea game. Before a friendly game, a security guard at
+          the Espanyol stadium took a banana out of his pocket, pointed it at a
+          black adviser to a Real Madrid player and said: "Hands up, this is my
+          gun."
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="../png/n3.png" alt="" />
+        <div class="card_header">
+          Chilavert on Mbappe's words about South American football
+        </div>
+        <div class="card_text">
+          Jose Luis Chilavert reacted to Kylian Mbappe's words about South
+          American football. In May 2022, the forward of PSG and the French
+          national team said: "In South America, football is not developed in
+          the same way as in Europe. Therefore, if you look at the recent World
+          Championships, European teams have constantly won."
+        </div>
+      </div>
+    </div>
+
+    <script src="../scripts/jQuery.js"></script>
+    <script>
+      window.onload = () => {
+        $(".wrapper").removeClass("hidden");
+      };
+
+      $(".balance").html(localStorage.balance_b79);
+    </script>
+  </body>
+</html>

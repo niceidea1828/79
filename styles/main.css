@@ -1,0 +1,28 @@
+.cards {
+  width: 310px;
+  margin: 30px auto auto;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 20px;
+}
+
+.link {
+  width: 145px;
+}
+
+.link img {
+  width: 100%;
+}
+
+.pic {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.pol {
+  text-decoration: underline;
+}
